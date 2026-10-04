@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tag": "🇦🇶 AQ 01 - xiaohe",
+      "server": "2.27.26.128",
+      "server_port": 443,
+      "uuid": "8710a337-f504-4b75-8989-224cfd803b2d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ya.ru",
+        "server_name": "aq-1.global-cdn.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
+          "public_key": "HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8",
+          "short_id": "90f9d05bf95cb335"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
